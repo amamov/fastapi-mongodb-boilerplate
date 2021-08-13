@@ -13,7 +13,17 @@ cd <your-project-name>
 
 # create "secrets.json" for env
 touch secrets.json
+```
 
+```json
+// ./secrets.json
+{
+  "MONGO_DB_NAME": "your-db-name",
+  "MONGO_URL": "mongodb+srv://..."
+}
+```
+
+```shell
 # remove .git
 rm -rf .git
 ```
